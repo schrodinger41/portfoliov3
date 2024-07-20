@@ -1,68 +1,161 @@
+/*==========GOOGLE FONT==========*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /*==========COLORS==========*/
+  --primary-color: #9b00cc;
+  --white-color: white;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --background-color: hsl(0, 0%, 7%);
+  --transition: all 300ms ease-in-out;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  /*==========TYPOGRAPHY==========*/
+  --body-font: "Rubik", sans-serif;
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
+/*==========RESPONSIVE==========*/
+@media screen and (max-width: 1024px) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
   }
-  a:hover {
-    color: #747bff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background-color: var(--background-color);
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-family: var(--body-font);
+  color: var(--white-color);
+}
+
+/* resets */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+button {
+  outline: none;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+h1,
+h2,
+h3 {
+  color: var(--white-color);
+  font-weight: var(--font-weight-700);
+}
+img {
+  width: 100%;
+  display: block;
+}
+input {
+  border: none;
+  outline: 0;
+  font-family: inherit;
+  font-size: 1.6rem;
+}
+.resize-animation-stopper * {
+  animation: none !important;
+  transition: none !important;
+}
+
+/*==========REUSABLE CSS==========*/
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-sb {
+  justify-content: space-between;
+}
+
+.flex-c {
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.container {
+  max-width: 1080px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.section_title {
+  font-size: var(--h1-font-size);
+  margin-left: 0.875rem;
+  font-weight: var(--font-weight-700);
+  position: relative;
+  margin-bottom: 3.75rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  line-height: 1;
+  border-radius: 1.875rem;
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  border: 1px solid transparent;
+  color: white;
+  display: inline-block;
+  background-color: var(--primary-color);
+  font-weight: var(--font-weight-700);
+}
+
+@keyframes button-push {
+  50% {
+    transform: scale(0.8);
   }
-  button {
-    background-color: #f9f9f9;
+
+  100% {
+    transform: scale(1);
   }
+}
+
+.btn:hover {
+  animation: button-push 0.3s linear 1;
 }

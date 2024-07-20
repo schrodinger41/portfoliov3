@@ -58,18 +58,19 @@ const Home = () => {
       }
     }
   }, [index, typingIndex, statuses, typingDirection]);
+
   return (
     <section className="home container" id="home">
       <div className="intro">
-        <img src={Me} alt="" className="home_img" />
+        <img src={Me} alt="Jhet Andrei Dizon" className="home_img" />
         <h1 className="home_name">Jhet Andrei Dizon</h1>
-        <span className="home_education">{status}</span>
-
+        <span className="home_education" style={{ minHeight: "1.7em" }}>
+          {status}
+        </span>
         <HeaderSocials />
-        <a href="" className="btn">
+        <a href="#" className="btn">
           Hire Me
         </a>
-
         <ScrollDown />
       </div>
     </section>

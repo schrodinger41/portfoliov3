@@ -6,7 +6,7 @@ const HeaderSocials = () => {
   return (
     <div className="home_socials">
       <a
-        href="https://instagram.com"
+        href="https://www.instagram.com/jhiiiitt/"
         className="home_socials-link"
         target="_blank"
         rel="noopener noreferrer"
@@ -14,7 +14,7 @@ const HeaderSocials = () => {
         <FaInstagram />
       </a>
       <a
-        href="https://linkedin.com"
+        href="https://www.linkedin.com/in/jhet-andrei-dizon-0ba0782a2/"
         className="home_socials-link"
         target="_blank"
         rel="noopener noreferrer"
@@ -22,7 +22,7 @@ const HeaderSocials = () => {
         <CiLinkedin />
       </a>
       <a
-        href="https://github.com"
+        href="https://github.com/schrodinger41"
         className="home_socials-link"
         target="_blank"
         rel="noopener noreferrer"

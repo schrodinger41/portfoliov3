@@ -8,6 +8,7 @@ const Projects = () => {
 
   return (
     <section className="work container section" id="projects">
+      <div className="separator"></div>
       <h2 className="section_title">Projects</h2>
 
       <div className="work_container grid">

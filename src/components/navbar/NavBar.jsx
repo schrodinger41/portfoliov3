@@ -13,7 +13,13 @@ const NavBar = () => {
     <nav className="navbar" id="navbar">
       <div className="navbar-content flex">
         <div className="brand-and-toggler flex flex-sb">
-          <Link to="/" className="navbar-brand flex">
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="navbar-brand flex"
+            onClick={handleNavbar}
+          >
             <img src={logoImg} alt="site logo" />
           </Link>
           <button

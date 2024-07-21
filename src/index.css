@@ -13,11 +13,11 @@
 
   /*==========TYPOGRAPHY==========*/
   --body-font: "Rubik", sans-serif;
-  --h1-font-size: 2.5rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
-  --normal-font-size: 1rem;
-  --small-font-size: 0.875rem;
+  --h1-font-size: 3rem;
+  --h2-font-size: 2rem;
+  --h3-font-size: 1.5rem;
+  --normal-font-size: 1.5rem;
+  --small-font-size: 0.9rem;
   --smaller-font-size: 0.813rem;
 
   --font-weight-500: 500;
@@ -32,10 +32,10 @@
 /*==========RESPONSIVE==========*/
 @media screen and (max-width: 1024px) {
   :root {
-    --h1-font-size: 1.75rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
+    --h1-font-size: 1.9rem;
+    --h2-font-size: 1.3rem;
+    --h3-font-size: 1.2rem;
+    --normal-font-size: 1rem;
     --small-font-size: 0.813rem;
     --smaller-font-size: 0.75rem;
   }
@@ -102,6 +102,12 @@ input {
 .flex {
   display: flex;
   align-items: center;
+}
+
+.separator {
+  border-top: 1px solid var(--container-color);
+  max-width: 40%;
+  margin: 72px auto 56px;
 }
 
 .flex-column {

@@ -16,6 +16,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <section className="contact section" id="contact">
+      <div className="separator"></div>
       <h2 className="section_title">
         Get In <span>Touch</span>
       </h2>

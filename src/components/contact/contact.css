@@ -4,6 +4,7 @@
 
 .contact__container {
   grid-template-columns: 4fr 8fr;
+  column-gap: 5rem;
 }
 
 .contact__title {
@@ -15,6 +16,7 @@
 .contact__description {
   font-size: var(--h2-font-size);
   line-height: 1.6;
+  text-align: justify;
 }
 
 .contact__description,

@@ -256,6 +256,51 @@
   .skills__container {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .about_container {
+    grid-template-columns: 720px;
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+
+  .about_data::before {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    left: 49%;
+    top: -20px;
+  }
+
+  .aboout_img {
+    justify-self: center;
+  }
+
+  .about_box {
+    flex-direction: column;
+    row-gap: 0.5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about_container {
+    grid-template-columns: 350px;
+  }
+
+  .about_data::before {
+    left: 47%;
+  }
+
+  .about_data {
+    grid-template-columns: 1fr;
+    row-gap: 1.875;
+  }
+
+  .about_boxes {
+    grid-template-columns: repeat(2, 150px);
+    row-gap: 1.5rem;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 576px) {

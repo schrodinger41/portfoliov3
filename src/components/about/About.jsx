@@ -9,7 +9,7 @@ import ResumeItem from "./ResumeItem";
 const About = () => {
   return (
     <section className="about container section" id="about">
-      <h2 className="section__subtitle">About Me</h2>
+      <h2 className="section_title">About Me</h2>
       <div className="about_container grid">
         <img src={about} alt="" className="about_img" />
 

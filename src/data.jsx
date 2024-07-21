@@ -14,7 +14,8 @@ export const resume = [
     category: "education",
     icon: <FaGraduationCap />,
     year: "2023-Present",
-    title: "BSIT <span> University of Cebu </span>",
+    title:
+      "Bachelor of Science in Information Technology  <span> University of Cebu </span>",
   },
 
   {
@@ -72,7 +73,13 @@ export const skills = [
 
   {
     id: 8,
-    title: "Bootstrap",
+    title: "PHP",
     percentage: "65",
+  },
+
+  {
+    id: 9,
+    title: "Laravel",
+    percentage: "70",
   },
 ];

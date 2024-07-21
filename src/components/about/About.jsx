@@ -2,11 +2,14 @@ import React from "react";
 import "./about.css";
 import about from "../../images/about.jpg";
 import AboutBox from "./AboutBox";
+import { resume } from "../../data";
+import Skills from "./Skills";
+import ResumeItem from "./ResumeItem";
 
 const About = () => {
   return (
     <section className="about container section" id="about">
-      <h2 className="section_title">About Me</h2>
+      <h2 className="section__subtitle">About Me</h2>
       <div className="about_container grid">
         <img src={about} alt="" className="about_img" />
 
@@ -57,6 +60,37 @@ const About = () => {
       </div>
 
       <AboutBox />
+      <div className="separator"></div>
+      <section className="skills">
+        <h3 className="section__subtitle subtitle__center">My Skills</h3>
+
+        <div className="skills__container grid">
+          <Skills />
+        </div>
+      </section>
+
+      <div className="separator"></div>
+
+      <section className="resume">
+        <h3 className="section__subtitle subtitle__center">Education</h3>
+
+        <div className="resume__container grid">
+          <div className="resume__data">
+            {resume.map((val) => {
+              if (val.category === "experience") {
+                return <ResumeItem key={val.id} {...val} />;
+              }
+            })}
+          </div>
+          <div className="resume__data">
+            {resume.map((val) => {
+              if (val.category === "education") {
+                return <ResumeItem key={val.id} {...val} />;
+              }
+            })}
+          </div>
+        </div>
+      </section>
     </section>
   );
 };

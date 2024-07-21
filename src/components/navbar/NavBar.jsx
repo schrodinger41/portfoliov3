@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import logoImg from "../../images/icon.png";
 import "./navbar.css";
 
@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <nav className="navbar" id="navbar">
-      <div className=" navbar-content flex">
+      <div className="navbar-content flex">
         <div className="brand-and-toggler flex flex-sb">
           <Link to="/" className="navbar-brand flex">
             <img src={logoImg} alt="site logo" />
@@ -39,22 +39,46 @@ const NavBar = () => {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link to="#" className="nav-link text-uppercase">
+              <Link
+                to="home"
+                smooth={true}
+                duration={500}
+                className="nav-link text-uppercase"
+                onClick={handleNavbar}
+              >
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="#" className="nav-link text-uppercase">
+              <Link
+                to="about"
+                smooth={true}
+                duration={500}
+                className="nav-link text-uppercase"
+                onClick={handleNavbar}
+              >
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="#" className="nav-link text-uppercase">
-                Project
+              <Link
+                to="projects"
+                smooth={true}
+                duration={500}
+                className="nav-link text-uppercase"
+                onClick={handleNavbar}
+              >
+                Projects
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="#" className="nav-link text-uppercase">
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="nav-link text-uppercase"
+                onClick={handleNavbar}
+              >
                 Contact
               </Link>
             </li>

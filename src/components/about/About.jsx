@@ -24,13 +24,17 @@ const About = () => {
             <a
               href="https://drive.google.com/file/d/1qUzNS1F6HBAmjneSGo2uI7YGVBZYKQdj/view?usp=sharing"
               target="blank"
-              className="btn"
+              className="btn intro-vid "
             >
               View CV
             </a>
-            {/* <a href="" target="blank" className="btn intro-vid">
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="blank"
+              className="btn"
+            >
               Introduction Video
-            </a> */}
+            </a>
           </div>
 
           <div className="about_skill grid">

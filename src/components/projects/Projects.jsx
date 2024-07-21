@@ -7,7 +7,7 @@ const Projects = () => {
   const [items, setItems] = useState(Menu);
 
   return (
-    <section className="work container section" id="work">
+    <section className="work container section" id="projects">
       <h2 className="section_title">Projects</h2>
 
       <div className="work_container grid">

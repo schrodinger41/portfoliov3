@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-scroll";
 import "./home.css";
 import Me from "../../images/me.jpg";
 import HeaderSocials from "./HeaderSocials";
@@ -15,6 +16,7 @@ const Home = () => {
   const [index, setIndex] = useState(0);
   const [typingIndex, setTypingIndex] = useState(0);
   const [typingDirection, setTypingDirection] = useState(1);
+
   useEffect(() => {
     const currentStatus = statuses[index];
     const length = currentStatus.length;
@@ -61,9 +63,9 @@ const Home = () => {
           {status}
         </span>
         <HeaderSocials />
-        <a href="#" className="btn">
+        <Link to="about" smooth={true} duration={500} className="btn">
           More About Me
-        </a>
+        </Link>
         <ScrollDown />
       </div>
     </section>

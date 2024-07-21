@@ -25,14 +25,14 @@ const Menu = [
     id: 3,
     image: Project3,
     title: "Enomy-Finances",
-    category: "Front-End, Spring Security, and SQL ",
+    category: "Front-End, Spring Security, Java, and SQL ",
     link: "https://github.com/schrodinger41/enomy-finances",
   },
   {
     id: 4,
     image: Project4,
     title: "ABC Car Portal",
-    category: "Front-End, SpringBoot, Spring Security, and SQL",
+    category: "Front-End, SpringBoot, Java, and SQL",
     link: "https://github.com/schrodinger41/abc_portal",
   },
   {
@@ -46,7 +46,7 @@ const Menu = [
     id: 6,
     image: Project6,
     title: "Merry Meals",
-    category: "Laravel, PHP, and API",
+    category: "Laravel, Blade, PHP, and API",
     link: "https://github.com/schrodinger41/merrymeals",
   },
 ];

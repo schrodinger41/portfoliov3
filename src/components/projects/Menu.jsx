@@ -5,6 +5,7 @@ import Project3 from "../../images/project-3.jpeg";
 import Project4 from "../../images/project-4.jpeg";
 import Project5 from "../../images/project-5.jpeg";
 import Project6 from "../../images/project-6.jpeg";
+import Project7 from "../../images/project-7.jpeg";
 
 const Menu = [
   {
@@ -48,6 +49,13 @@ const Menu = [
     title: "Merry Meals",
     category: "Laravel, Blade, PHP, and API",
     link: "https://github.com/schrodinger41/merrymeals",
+  },
+  {
+    id: 7,
+    image: Project7,
+    title: "Pokedex",
+    category: "React and API",
+    link: "https://github.com/schrodinger41/pokedex",
   },
 ];
 

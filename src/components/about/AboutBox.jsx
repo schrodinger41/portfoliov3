@@ -29,7 +29,7 @@ const AboutBox = () => {
           <MdComputer />
         </i>
         <h3 className="about_title">3123</h3>
-        <span className="about_subtitle">Hours on PC</span>
+        <span className="about_subtitle">Screen Time Hours</span>
       </div>
 
       <div className="about_box">

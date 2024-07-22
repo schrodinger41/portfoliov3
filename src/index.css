@@ -32,12 +32,12 @@
 /*==========RESPONSIVE==========*/
 @media screen and (max-width: 1024px) {
   :root {
-    --h1-font-size: 1.9rem;
-    --h2-font-size: 1.3rem;
-    --h3-font-size: 1.2rem;
-    --normal-font-size: 1rem;
-    --small-font-size: 0.813rem;
-    --smaller-font-size: 0.75rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.7rem;
+    --h3-font-size: 1.5rem;
+    --normal-font-size: 1.3rem;
+    --small-font-size: 1rem;
+    --smaller-font-size: 0.9rem;
   }
 }
 

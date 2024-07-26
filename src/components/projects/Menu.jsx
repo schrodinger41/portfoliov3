@@ -6,6 +6,7 @@ import Project4 from "../../images/project-4.jpeg";
 import Project5 from "../../images/project-5.jpeg";
 import Project6 from "../../images/project-6.jpeg";
 import Project7 from "../../images/project-7.jpeg";
+import Project8 from "../../images/project-8.jpeg";
 
 const Menu = [
   {
@@ -56,6 +57,13 @@ const Menu = [
     title: "Pokedex",
     category: "React and API",
     link: "https://github.com/schrodinger41/pokedex",
+  },
+  {
+    id: 8,
+    image: Project8,
+    title: "Bullet Journal",
+    category: "React",
+    link: "https://github.com/bbJerr/bulletJournal",
   },
 ];
 

@@ -23,6 +23,10 @@
   object-fit: cover;
 }
 
+.home_education {
+  color: var(--primary-text-color);
+}
+
 .home_name {
   font-size: var(--h1-font-size);
 }
@@ -35,7 +39,7 @@
 }
 
 .home_socials-link {
-  color: var(--white-color);
+  color: var(--primary-text-color);
   font-size: 3.5rem;
   transition: 0.3s;
 }
@@ -53,6 +57,7 @@
 
 .home_scroll-name {
   font-size: var(--normal-font-size);
+  color: var(--primary-text-color);
 }
 
 .mouse {
@@ -85,7 +90,7 @@
 }
 
 .wheel {
-  background-color: var(--white-color);
+  background-color: var(--primary-text-color);
   border-radius: 100%;
   width: 0.4rem;
   height: 0.4rem;

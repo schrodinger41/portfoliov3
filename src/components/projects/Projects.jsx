@@ -13,7 +13,7 @@ const Projects = () => {
 
       <div className="work_container grid">
         {items.map((elem) => {
-          const { id, image, title, category, link } = elem;
+          const { id, image, title, desc, category, link } = elem;
           return (
             <div className="work_card" key={id}>
               <div className="work_thumbnail">
@@ -23,6 +23,7 @@ const Projects = () => {
 
               <span className="work_category">{category}</span>
               <h3 className="work_title">{title}</h3>
+              <h3 className="work_desc">{desc}</h3>
               <a
                 href={link}
                 className="work_button"

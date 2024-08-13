@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import logoImg from "../../images/icon.png";
+import ThemeSwitcher from "../themeSwitcher/ThemeSwitcher";
 import "./navbar.css";
 
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
@@ -22,6 +23,7 @@ const NavBar = () => {
           >
             <img src={logoImg} alt="site logo" />
           </Link>
+
           <button
             type="button"
             className="navbar-toggler-btn"
@@ -30,7 +32,9 @@ const NavBar = () => {
             <HiOutlineMenuAlt3
               size={35}
               style={{
-                color: `${toggleMenu ? "#fff" : "#9b00cc"}`,
+                color: `${
+                  toggleMenu ? "var(--primary-text-color)" : "#9b00cc"
+                }`,
               }}
             />
           </button>
@@ -87,6 +91,9 @@ const NavBar = () => {
               >
                 Contact
               </Link>
+            </li>
+            <li className="nav-item">
+              <ThemeSwitcher />
             </li>
           </ul>
         </div>

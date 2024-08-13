@@ -156,7 +156,7 @@
 }
 
 .CircularProgressbar-text {
-  fill: var(--white-color) !important;
+  fill: var(--primary-text-color) !important;
   font-family: var(--second-font);
   font-size: var(--large-font-size) !important;
 }
@@ -191,7 +191,7 @@
   left: 0;
   top: 0;
   background-color: var(--primary-color);
-  color: var(--white-color);
+  color: white;
   width: 40px;
   height: 40px;
   border-radius: 50%;

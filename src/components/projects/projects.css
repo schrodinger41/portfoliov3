@@ -62,7 +62,19 @@
   margin: 0 0 0.98rem;
   padding: 0 1.25rem;
   position: absolute;
-  top: 3.75rem;
+  top: 2.75rem;
+  transform: translateY(30px);
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.work_desc {
+  color: white;
+  font-size: var(--h3-font-size);
+  margin: 0.5rem 0 0.98rem;
+  padding: 0 1.25rem;
+  position: absolute;
+  top: 5rem;
   transform: translateY(30px);
   transition: 0.3s;
   opacity: 0;
@@ -91,6 +103,7 @@
 }
 
 .work_card:hover .work_title,
+.work_card:hover .work_desc,
 .work_card:hover .work_category {
   opacity: 1;
   transform: translateY(0);

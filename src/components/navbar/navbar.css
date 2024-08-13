@@ -6,7 +6,7 @@
   top: 0;
   width: 100%;
   z-index: 1000;
-  background-color: hsl(0, 0%, 7%);
+  background-color: var(--background-color);
 }
 .navbar-brand {
   width: 90px;
@@ -35,7 +35,7 @@
   right: 0;
   top: 0;
   z-index: 10;
-  background-color: hsl(0, 0%, 7%);
+  background-color: var(--background-color);
   height: 100%;
   width: 280px;
   display: flex;
@@ -52,7 +52,7 @@
 .nav-link {
   transition: var(--transition);
   text-transform: capitalize;
-  color: white;
+  color: var(--primary-text-color);
   font-size: 2.2rem;
   font-weight: 600;
   letter-spacing: 1px;
@@ -81,7 +81,7 @@
     margin-left: 2.8rem;
   }
   .nav-link {
-    color: var(--white-color);
+    color: var(--primary-text-color);
     font-size: 1.9rem;
     font-weight: 700 !important;
     opacity: 0.8;

@@ -11,6 +11,7 @@
   --container-color: hsl(0, 1%, 17%);
   --background-color: hsl(0, 0%, 7%);
   --transition: all 300ms ease-in-out;
+  --scroll-color: #fff;
 
   /*==========TYPOGRAPHY==========*/
   --body-font: "Rubik", sans-serif;
@@ -34,6 +35,7 @@
   --primary-text-color: hsl(0, 0%, 7%);
   --background-color: #fbfcf8;
   --container-color: hsl(0, 0%, 93%);
+  --scroll-color: #9b00cc;
 }
 
 /*==========RESPONSIVE==========*/
@@ -63,6 +65,17 @@ body {
   font-family: var(--body-font);
   color: var(--primary-text-color);
   transition: all 0.3s;
+}
+
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--scroll-color);
 }
 
 /* resets */

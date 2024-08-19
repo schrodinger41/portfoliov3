@@ -6,13 +6,13 @@
   place-items: center;
   transition: all 0.3s;
 }
-/* 
+
 @media screen and (min-width: 992px) {
   .theme__toggler {
     height: 100%;
   }
 }
-
+/* 
 @media screen and (max-width: 991px) {
   .theme-switcher-container {
     display: none;

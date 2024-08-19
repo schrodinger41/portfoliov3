@@ -23,9 +23,9 @@ const NavBar = () => {
           >
             <img src={logoImg} alt="site logo" />
           </Link>
-          <li className="navbar-toggler-btn">
+          {/* <li className="navbar-toggler-btn">
             <ThemeSwitcher />
-          </li>
+          </li> */}
           <button
             type="button"
             className="navbar-toggler-btn"

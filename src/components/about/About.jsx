@@ -30,7 +30,7 @@ const About = () => {
               View CV
             </a>
             <a
-              href="https://www.youtube.com/watch?v=E73S1cyCdXI"
+              href="https://www.youtube.com/watch?v=cl_WIVvG10U"
               target="blank"
               className="btn"
             >

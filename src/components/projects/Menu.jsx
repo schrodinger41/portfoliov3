@@ -7,6 +7,7 @@ import Project5 from "../../images/project-5.jpeg";
 import Project6 from "../../images/project-6.jpeg";
 import Project7 from "../../images/project-7.jpeg";
 import Project8 from "../../images/project-8.jpeg";
+import Project9 from "../../images/project-9.jpeg";
 
 const Menu = [
   {
@@ -72,6 +73,14 @@ const Menu = [
     desc: "An online bullet journal for tracking daily notes, mood, and habits.",
     category: "React",
     link: "https://github.com/bbJerr/bulletJournal",
+  },
+  {
+    id: 9,
+    image: Project9,
+    title: "iArtist",
+    desc: "A website where artists can upload their art online for people to see.",
+    category: "React and Firebase",
+    link: "https://github.com/schrodinger41/iArtist",
   },
 ];
 

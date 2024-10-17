@@ -8,6 +8,7 @@ import Project6 from "../../images/project-6.jpeg";
 import Project7 from "../../images/project-7.jpeg";
 import Project8 from "../../images/project-8.jpeg";
 import Project9 from "../../images/project-9.jpeg";
+import Project10 from "../../images/project-10.jpeg";
 
 const Menu = [
   {
@@ -81,6 +82,14 @@ const Menu = [
     desc: "A website where artists can upload their art online for people to see.",
     category: "React and Firebase",
     link: "https://github.com/schrodinger41/iArtist",
+  },
+  {
+    id: 10,
+    image: Project10,
+    title: "Snapstudy",
+    desc: "A website where students can create flashcards to aid them in their studies.",
+    category: "React and Firebase",
+    link: "https://github.com/schrodinger41/snapstudy",
   },
 ];
 

@@ -75,7 +75,7 @@ const Menu = [
     desc: "An online bullet journal for tracking daily notes, mood, and habits.",
     category: "React",
     link: "https://github.com/bbJerr/bulletJournal",
-    site: "https://online-bujo.netlify.app/home",
+    site: "https://online-bujo.netlify.app/",
   },
   {
     id: 9,

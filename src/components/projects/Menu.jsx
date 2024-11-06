@@ -66,6 +66,7 @@ const Menu = [
     desc: "A personal project using PokeAPI for detailed Pokémon information.",
     category: "React and API",
     link: "https://github.com/schrodinger41/pokedex",
+    site: "https://jitpokedex.netlify.app/",
   },
   {
     id: 8,
@@ -74,6 +75,7 @@ const Menu = [
     desc: "An online bullet journal for tracking daily notes, mood, and habits.",
     category: "React",
     link: "https://github.com/bbJerr/bulletJournal",
+    site: "https://online-bujo.netlify.app/home",
   },
   {
     id: 9,
@@ -82,6 +84,7 @@ const Menu = [
     desc: "A website where artists can upload their art online for people to see.",
     category: "React and Firebase",
     link: "https://github.com/schrodinger41/iArtist",
+    site: "https://i-artist.vercel.app/",
   },
   {
     id: 10,
@@ -90,6 +93,7 @@ const Menu = [
     desc: "A website where students can create flashcards to aid them in their studies.",
     category: "React and Firebase",
     link: "https://github.com/schrodinger41/snapstudy",
+    site: "https://snap-study.netlify.app/",
   },
 ];
 

@@ -93,12 +93,37 @@
   cursor: pointer;
   border-radius: 50%;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   line-height: 42px;
   transition: 0.3s;
   opacity: 0;
 }
 
-.work_card:hover .work_button {
+.link_button {
+  color: white;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 6rem;
+  font-size: var(--h2-font-size);
+  display: block;
+  background-color: var(--secondary-color);
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 42px;
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.work_card:hover .work_button,
+.work_card:hover .link_button {
   opacity: 1;
 }
 

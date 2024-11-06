@@ -82,4 +82,9 @@ export const skills = [
     title: "Laravel",
     percentage: "70",
   },
+  {
+    id: 10,
+    title: "Firebase",
+    percentage: "75",
+  },
 ];

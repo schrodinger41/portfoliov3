@@ -69,13 +69,16 @@ body {
 
 body::-webkit-scrollbar {
   width: 1rem;
+  border-radius: 50px;
 }
 
 body::-webkit-scrollbar-track {
   background: var(--background-color);
+  border-radius: 50px;
 }
 body::-webkit-scrollbar-thumb {
   background: var(--scroll-color);
+  border-radius: 50px;
 }
 
 /* resets */

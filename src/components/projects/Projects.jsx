@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaLink } from "react-icons/fa";
 import "./projects.css";
+import { FiGlobe } from "react-icons/fi";
 import Menu from "./Menu";
 
 const Projects = () => {
@@ -13,7 +14,7 @@ const Projects = () => {
 
       <div className="work_container grid">
         {items.map((elem) => {
-          const { id, image, title, desc, category, link } = elem;
+          const { id, image, title, desc, category, link, site } = elem;
           return (
             <div className="work_card" key={id}>
               <div className="work_thumbnail">
@@ -29,9 +30,21 @@ const Projects = () => {
                 className="work_button"
                 target="_blank"
                 rel="noopener noreferrer"
+                title="View Github Repo"
               >
                 <FaLink />
               </a>
+              {site && (
+                <a
+                  href={site}
+                  className="link_button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Visit Website"
+                >
+                  <FiGlobe />
+                </a>
+              )}
             </div>
           );
         })}
